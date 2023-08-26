@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('deploye') {
+      steps {
+        sh 'echo "no"'
+      }
+    }
+
   }
 }
